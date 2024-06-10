@@ -83,6 +83,7 @@ def caesar_cipher(string, shift = 1)
   ciphered_text
 end
 
-puts caesar_cipher("What a string!", 5)
-                                                     
-# a b c d e f g h i j k l m n o p q r s t u v w x y z
+puts caesar_cipher("What a string!", 5) # => "Bmfy f xywnsl!"
+puts caesar_cipher("What a string!", -5) # => "Rcvo v nomdib!"
+puts caesar_cipher("TOP is the Best!!!", 502) # => "BWX qa bpm Jmab!!!"
+puts caesar_cipher("BWX qa bpm Jmab!!!", -502) # => "TOP is the Best!!!"
