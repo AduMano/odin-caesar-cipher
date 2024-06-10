@@ -21,5 +21,6 @@ Quick Tips:
   - string = This is where you want your message or string to be ciphered. Ex: "Hello"
   - shift = This is where you put a number depending on how much you wanted to shift the characters
     > [!IMPORTANT]
+    
     > You are able to enter negative shift value, which will make the shifting go to left instead of right.
     > So positive value results to shifting to right, while negative shifts to left.
